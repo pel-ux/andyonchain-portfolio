@@ -1,0 +1,48 @@
+import { Project } from '@/types'
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    icon: '⚡',
+    name: 'VoltSwap',
+    description: 'AMM DEX with concentrated liquidity and zap-in routing for EVM chains.',
+    tags: ['DeFi'],
+    chain: 'Ethereum',
+    tvl: '$4.2M',
+    contributors: 6,
+    active: true,
+  },
+  {
+    id: '2',
+    icon: '🪬',
+    name: 'AuraPass',
+    description: 'Soulbound identity NFT system with on-chain reputation scoring.',
+    tags: ['NFT', 'Identity'],
+    chain: 'Polygon',
+    tvl: '12K holders',
+    contributors: 4,
+    active: true,
+  },
+  {
+    id: '3',
+    icon: '🗳️',
+    name: 'GovCore',
+    description: 'Modular on-chain governance toolkit for DAOs.',
+    tags: ['DAO'],
+    chain: 'Arbitrum',
+    tvl: '8 DAOs',
+    contributors: 5,
+    active: true,
+  },
+  {
+    id: '4',
+    icon: '🕹️',
+    name: 'RuneArena',
+    description: 'Onchain PvP card game with provably fair randomness via Chainlink VRF.',
+    tags: ['Gaming'],
+    chain: 'Avalanche',
+    tvl: '3.1K players',
+    contributors: 7,
+    active: true,
+  },
+]
