@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './global.css'
-import { Analytics } from "@vercel/analytics/next"
+
 
 export const metadata: Metadata = {
   title: 'AndyOnchain — Web3 Community Manager',
