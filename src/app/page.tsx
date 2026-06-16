@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
-
+import { Analytics } from "@vercel/analytics/next"
 
 const TITLES = [
   'Web3 Community Manager',
