@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+    background-color: red;
+}
+
+hero{
+    background-color: red;
+}
